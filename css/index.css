@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.logo{
+    margin-left: 64px;
+    font-size: 20px;
+    font-weight: 500;
+    color: aqua;
+}
+
+.navbar a{
+    margin-right: 36px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    color: aqua;
+    background: transparent;
+    backdrop-filter: blur(9px);
+    padding: 10px;
+}
+
+
+header{
+    min-height: 100vh;
+    padding: 10rem 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(food.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.home-container h4{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.home-flex h2{
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 0 0 1rem white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bt{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.about-game{
+    min-height: 60vh;
+    padding: 10rem 2rem;
+}
+
+.about-flex h3{
+text-align: center;
+font-size: 40px;
+margin-top: -30px;
+text-transform: capitalize;
+}
+
+.image img{
+    float: left;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+   
+}
+
